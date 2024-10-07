@@ -2,7 +2,6 @@ namespace MyFirstExampleApp;
 
 public class NestedDisposable: IDisposable
 {
-
     public int Depth { get; }
     private readonly IDisposable _first;
     private readonly IDisposable _second;
